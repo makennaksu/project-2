@@ -49,13 +49,13 @@ function createHighcharts(data){
     name: "Confirmed Cases",
     type: "lollipop",
     data: data[1],
-    color: "orange"
+    color: "purple"
     },
     {
     name: "Deaths",
     type: "lollipop",
     data: data[2],
-    color: "red"
+    color: "gray"
     }
     ],
     tooltip: {
